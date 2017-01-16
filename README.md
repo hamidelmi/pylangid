@@ -10,6 +10,7 @@ However, our model is design to assign a score to a test data.  The model normal
 It is important to note that this is potentionally a sclable approach since it can be easily parallelized in a distributed platform such as Spark to speed up the learing and evaluation process. 
 
 # Dataset
+The first dataset [3] is the European Parliament Corpus that consists of 21:  European languages: Romanic (French, Italian, Spanish, Portuguese, Romanian), Germanic (English, Dutch, German, Danish, Swedish), Slavik (Bulgarian, Czech, Polish, Slovak, Slovene), Finni-Ugric (Finnish, Hungarian, Estonian), Baltic (Latvian, Lithuanian), and Greek
 
 Secondly, I used a more complicated dataset in which documents from very similar languages are about to be discreminate. I used the dataset of DSL-2015. It consists of 18,000 sentences for the following 13 languages:
  - South-Eastern Slavic (Bulgarian (bg), Macedonian (mk))
@@ -20,12 +21,19 @@ Secondly, I used a more complicated dataset in which documents from very similar
  - Austronesian (Indonesian (id), Malay (my))
 
 #Experiment and resutls
-For the second dataset, I evaluate the model against a golden dataset which contains 14,000 sentences for each languages. 
 
-![alt tag](https://s23.postimg.org/4186c4tqz/image.png)
+For the second dataset, I evaluate the model against a golden dataset which contains 14,000 sentences for each languages and here is the result:
+
+![alt tag](https://s29.postimg.org/ikrpqjv13/image_1.png)
+
+The above chart shows that 4-gram has the best overall performance in dataset #2.
 
 #References
 
 [1] Language Identification from Text Using N-gram Based Cumulative Frequency Addition, Bashir Ahmed, Sung-Hyuk Cha, and Charles Tappert
 
 [2] N-Gram-Based Text Categorization, William B. Cavnar and John M. Trenkle
+
+[3] A Parallel Corpus for Statistical Machine Translation, Philipp Koehn
+
+[4] http://corporavm.uni-koeln.de/vardial/sharedtask.html
