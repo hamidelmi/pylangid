@@ -22,6 +22,8 @@ Secondly, I used a more complicated dataset in which documents from very similar
 #Experiment and resutls
 For the second dataset, I evaluate the model against a golden dataset which contains 14,000 sentences for each languages. 
 
+![alt tag](https://s23.postimg.org/4186c4tqz/image.png)
+
 #References
 
 [1] Language Identification from Text Using N-gram Based Cumulative Frequency Addition, Bashir Ahmed, Sung-Hyuk Cha, and Charles Tappert
