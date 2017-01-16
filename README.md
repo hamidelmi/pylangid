@@ -12,7 +12,7 @@ It is important to note that this is potentionally a sclable approach since it c
 # Dataset
 The first dataset [3] is the European Parliament Corpus that consists of 20:  European languages: Romanic (French, Italian, Spanish, Portuguese, Romanian), Germanic (English, Dutch, German, Danish, Swedish), Slavik (Bulgarian, Czech, Polish, Slovak, Slovene), Finni-Ugric (Finnish, Hungarian, Estonian), Baltic (Latvian, Lithuanian).
 
-Secondly, I used a more complicated dataset in which documents from very similar languages are about to be discreminate. I used the dataset of DSL-2015. It consists of 18,000 sentences for the following 13 languages:
+Secondly, I used a more complicated dataset in which documents from very similar languages are about to be discreminated. I used the dataset of DSL-2015. It consists of 18,000 sentences for the following 13 languages:
  - South-Eastern Slavic (Bulgarian (bg), Macedonian (mk))
  - South-Western Slavic (Bosnian (bs), Croatian (hr), Serbian (sr))
  - West Slavic (Czech (cz), Slovak (sk))
@@ -22,8 +22,12 @@ Secondly, I used a more complicated dataset in which documents from very similar
 
 #Experiment and resutls
 
-I conduct an experiment on first dataset using 3-grams on a test golden set of 260,000 sentences with average length of 150 charachters. The accuracy of the model is **0.984**. Further analysis shows that the length of text that the model is wrong about, is about 70 charachters. Hence we could conclude that in these cases the test data was not enough to identify the corrent language.
+I conduct an experiment on the first dataset using 3-grams on a test golden set of 260,000 sentences with average length of 150 charachters. The accuracy of the model is **0.984**. Further analysis shows that the length of text that the model is wrong about, is about 70 charachters. Hence we could conclude that in these cases the test data was not enough to identify the corrent language.
 
+Here you can see the results of (2,3)-grams in below:
+
+![alt tag](https://s24.postimg.org/f46bze7yt/image_4.png)
+  
 For the second dataset, I evaluate the model against a golden dataset which contains 14,000 sentences for each languages and here is the result:
 
 ![alt tag](https://s23.postimg.org/81oyz8fx7/image_2.png)
