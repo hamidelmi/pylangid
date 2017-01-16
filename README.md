@@ -24,7 +24,7 @@ Secondly, I used a more complicated dataset in which documents from very similar
 
 For the second dataset, I evaluate the model against a golden dataset which contains 14,000 sentences for each languages and here is the result:
 
-![alt tag](https://s29.postimg.org/ikrpqjv13/image_1.png)
+![alt tag](https://s23.postimg.org/81oyz8fx7/image_2.png)
 
 The above chart shows that 4-gram has the best overall performance in dataset #2.
 
