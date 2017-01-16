@@ -19,5 +19,3 @@ for file_name in os.listdir(langPath):
             _buffer = cleanhtml(" ".join(_buffer))
             with open("{0}/_{1}".format(langPath, file_name), 'wt') as file_write_handler:
                 file_write_handler.write(_buffer)
-
-
