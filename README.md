@@ -22,7 +22,7 @@ Secondly, I used a more complicated dataset in which documents from very similar
 
 #Experiment and resutls
 
-I conduct an experiment on first dataset using 3-grams on a test golden set of 260,000 sentences with average length of 150 charachters. The accuracy of the model is 0.984. Further analysis shows that the length of text that the model is wrong about, is about 70 charachters. Hence we could conclude that in these cases the test data was not enough to identify the corrent language.
+I conduct an experiment on first dataset using 3-grams on a test golden set of 260,000 sentences with average length of 150 charachters. The accuracy of the model is **0.984**. Further analysis shows that the length of text that the model is wrong about, is about 70 charachters. Hence we could conclude that in these cases the test data was not enough to identify the corrent language.
 
 For the second dataset, I evaluate the model against a golden dataset which contains 14,000 sentences for each languages and here is the result:
 
